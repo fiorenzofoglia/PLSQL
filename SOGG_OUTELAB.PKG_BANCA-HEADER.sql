@@ -1,5 +1,5 @@
 SET define OFF
-
+ 
 CREATE OR REPLACE PACKAGE SOGG_OUTELAB.PKG_BANCA
 IS
 	attivaDebug char(1) := 'N'; -- 22022019

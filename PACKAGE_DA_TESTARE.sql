@@ -1,6 +1,6 @@
 create or replace PACKAGE UT3.PACKAGE_DA_TESTARE AS 
  
-
+--inserito commento
   procedure moltiplica(add1 in number, add2 in number, ris out number);
 
 END PACKAGE_DA_TESTARE;

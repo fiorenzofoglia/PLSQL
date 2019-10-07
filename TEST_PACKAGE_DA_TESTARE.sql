@@ -12,14 +12,14 @@ create or replace PACKAGE     ut3.test_package_da_testare IS
 
    --%test(moltiplica per zero)
    PROCEDURE moltiplica2;
-
+/*
    --%test(moltiplica per un valore in virgola mobile)
    PROCEDURE moltiplica3;
 
    --%test(divisione per zero)
    --%throws(zero_divide)
    PROCEDURE dividi;
-
+*/
    --%endcontext
 
 
@@ -63,7 +63,7 @@ create or replace PACKAGE BODY         ut3.test_package_da_testare IS
       -- assert
       ut.expect(l_actual).to_equal(l_expected);
    END moltiplica2;
-
+/*
    --
    -- test moltiplica case 3: ...
    --
@@ -98,6 +98,6 @@ create or replace PACKAGE BODY         ut3.test_package_da_testare IS
       -- assert
       --ut.expect(l_actual).to_equal(l_expected);
    END dividi;
-
+*/
 END test_package_da_testare;
 /

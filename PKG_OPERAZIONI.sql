@@ -26,3 +26,4 @@ create or replace PACKAGE BODY             PKG_OPERAZIONI IS
     END;
 
 END PKG_OPERAZIONI;
+/

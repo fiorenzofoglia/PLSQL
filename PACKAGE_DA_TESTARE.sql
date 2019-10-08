@@ -1,4 +1,4 @@
-create or replace PACKAGE             UT3.PACKAGE_DA_TESTARE AS
+create or replace PACKAGE             UT3.PACKAGE_OPERAZIONI AS
 
 procedure moltiplica(add1 in number, add2 in number, ris out number);
 
@@ -25,5 +25,5 @@ create or replace PACKAGE BODY UT3.PACKAGE_DA_TESTARE IS
         
     END;
 
-END PACKAGE_DA_TESTARE;
+END PACKAGE_OPERAZIONI;
 /

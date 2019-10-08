@@ -4,10 +4,10 @@ procedure moltiplica(add1 in number, add2 in number, ris out number);
 
 procedure dividi(add1 in number, add2 in number, ris out number);
 
-END PACKAGE_DA_TESTARE;
+END PACKAGE_OPERAZIONI;
 /
 
-create or replace PACKAGE BODY UT3.PACKAGE_DA_TESTARE IS 
+create or replace PACKAGE BODY UT3.PACKAGE_OPERAZIONI IS 
 
   procedure moltiplica(add1 in number, add2 in number, ris out number)
     AS

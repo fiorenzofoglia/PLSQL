@@ -11,4 +11,4 @@ SPOOL OFF
 quit;
 EOF
 
-head -n -1 report.xml > temp.txt ; mv temp.txt report.xml
+head -n -3 report.xml > temp.txt ; mv temp.txt report.xml

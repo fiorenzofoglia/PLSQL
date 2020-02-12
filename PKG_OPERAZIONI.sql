@@ -1,4 +1,4 @@
-create or replace PACKAGE                         PKG_OPERAZIONI AS
+create or replace PACKAGE                         FFOGLIA.PKG_OPERAZIONI AS
 
 PROCEDURE MOLTIPLICA(add1 in number, add2 in number, ris out number);
 

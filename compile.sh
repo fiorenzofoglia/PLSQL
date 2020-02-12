@@ -8,5 +8,5 @@
 #quit;
 #EOF
 #done
-
-C/flyway-6.2.2/flyway migrate
+cd /c/flyway-6.2.2
+flyway migrate

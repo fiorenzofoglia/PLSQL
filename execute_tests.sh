@@ -3,7 +3,7 @@
 rm report.xml
 rm temp.txt
 
-sqlplus -s sys/GetStarted18c@//localhost:1521/XE as sysdba <<EOF
+sqlplus -s FFOGLIA/Piaggine_3801096736@//localhost:1521/XE as sysdba <<EOF
 set serveroutput on;
 SPOOL report.xml
 execute ut3.ut.run('FFOGLIA', ut_xunit_reporter());

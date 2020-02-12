@@ -7,7 +7,7 @@ PROCEDURE DIVIDI(add1 in number, add2 in number, ris out number);
 END PKG_OPERAZIONI;
 /
 
-create or replace PACKAGE BODY             PKG_OPERAZIONI IS
+create or replace PACKAGE BODY             FFOGLIA.PKG_OPERAZIONI IS
 
   PROCEDURE MOLTIPLICA(add1 in number, add2 in number, ris out number)
     AS

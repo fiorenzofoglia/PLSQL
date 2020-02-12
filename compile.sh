@@ -9,4 +9,4 @@
 #EOF
 #done
 cd /c/flyway-6.2.2
-flyway migrate
+./flyway migrate

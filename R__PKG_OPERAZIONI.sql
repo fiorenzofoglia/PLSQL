@@ -13,7 +13,6 @@ create or replace PACKAGE BODY PKG_OPERAZIONI IS
     AS
     BEGIN
         ris := add1*add2;
-        AND
     END;
 
   PROCEDURE DIVIDI(add1 in number, add2 in number, ris out number)
